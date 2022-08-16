@@ -1,0 +1,26 @@
+version: '3.9'
+services:
+  web:
+    #image: tmfev/gics:latest
+    image: gics:latest
+    container_name: gics
+    restart: always
+    ports:
+      - 43306:3306
+      - 48443:8443
+      - 48787:8787
+      - 48080:8080
+      - 9990:9990
+      - 9993:9993
+    networks:
+      - default
+    volumes:
+      - data:/var/gics
+
+networks:
+  default:
+    driver: bridge
+
+volumes:
+  data:
+    driver: local
