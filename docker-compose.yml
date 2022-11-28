@@ -1,8 +1,7 @@
 version: '3.9'
 services:
   web:
-    #image: tmfev/gics:latest
-    image: gics:latest
+    image: tmfev/gics:latest
     container_name: gics
     restart: always
     ports:
