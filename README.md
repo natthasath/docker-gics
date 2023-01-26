@@ -8,7 +8,7 @@ The Consent Management solution gICS (generic Informed Consent Administration Se
 
 ### 🥈 Run
 
-- [http://localhost:48080/](http://localhost:48080/) username : `admin` password : `admin`
+- [http://localhost:8080/](http://localhost:8080/) username : `admin` password : `admin`
 
 ```shell
 docker-compose up -d
