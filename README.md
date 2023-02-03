@@ -6,7 +6,7 @@ The Consent Management solution gICS (generic Informed Consent Administration Se
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
 ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
 
-### 🥈 Run
+### 🏆 Run
 
 - [http://localhost:8080/](http://localhost:8080/) username : `admin` password : `admin`
 
