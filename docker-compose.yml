@@ -13,8 +13,10 @@ services:
 
 networks:
   default:
+    name: docker_gics_network
     driver: bridge
 
 volumes:
   data:
+    name: docker_gics_data
     driver: local
